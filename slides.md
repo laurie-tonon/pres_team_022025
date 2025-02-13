@@ -84,7 +84,7 @@ transition: fade-out
 4. Xenium 5K and scRNAseq comparison
     - Can we replace the latter by the former?
 
-<img src="/images/UMAP_single_cell.jpeg" alt="Mon image"
+<img src="./images/UMAP_single_cell.jpeg" alt="Mon image"
   style="position: absolute; bottom: -180px; right: 20px; width: 300px;">
 	
 
@@ -99,7 +99,7 @@ class: 'grid text-center align-self-center
 
 # Single cell sequencing
 
-<img src="/images/10x_worklow.jpg" alt="10x_technos" style="max-width: 90%; display: block; margin: auto" >
+<img src="./images/10x_worklow.jpg" alt="10x_technos" style="max-width: 90%; display: block; margin: auto" >
 
 
 ---
@@ -107,19 +107,19 @@ class: 'grid text-center align-self-center
 
 # Visium
 
-<img src="/images/ST_visium_workflow.png" alt="10x_technos" style="max-width: 90%; display: block; margin: auto" >
+<img src="./images/ST_visium_workflow.png" alt="10x_technos" style="max-width: 90%; display: block; margin: auto" >
 
 ---
 
 
 # Xenium
 
-<img src="/images/xenium_worklow_comp.png" alt="10x_technos" style="max-width: 70%; display: block; margin: auto" >
+<img src="./images/xenium_worklow_comp.png" alt="10x_technos" style="max-width: 70%; display: block; margin: auto" >
 
 
 ---
 layout: text-image
-media: /images/10x_technos.png
+media: ./images/10x_technos.png
 ---
 
 # 3 main technologies
@@ -153,7 +153,7 @@ transition: fade-out
 
 * An expression matrix
 
-<img src="/images/count_matrix2.png" alt="10x_technos" style="max-width: 30%; float: left; margin-right: 20px;" >
+<img src="./images/count_matrix2.png" alt="10x_technos" style="max-width: 30%; float: left; margin-right: 20px;" >
 
 <div style="clear: left;"></div>
 
@@ -170,7 +170,7 @@ class: 'grid text-center align-self-center
 ---
 
 
-<img src="/images/analysis_workflow.webp" alt="10x_technos" style="max-width: 50%; display: block; margin: auto" >
+<img src="./images/analysis_workflow.webp" alt="10x_technos" style="max-width: 50%; display: block; margin: auto" >
 
 <Transform :scale="0.3">
 Heumos et al, nature review genetics
@@ -179,7 +179,7 @@ Heumos et al, nature review genetics
 
 ---
 layout: text-image
-media: /images/preproc.png
+media: ./images/preproc.png
 reverse: true
 class: custom-slide
 ---
@@ -200,7 +200,7 @@ class: custom-slide
 
 ---
 layout: text-image
-media: /images/cell_struct.png
+media: ./images/cell_struct.png
 reverse: true
 
 ---
@@ -215,7 +215,7 @@ reverse: true
 
 ---
 layout: text-image
-media: /images/cell_mecanisms.png
+media: ./images/cell_mecanisms.png
 reverse: true
 
 ---
@@ -237,7 +237,7 @@ class: 'grid text-center align-self-center
 layout: center
 ---
 
-<img src="/images/spatial_workflow.webp" alt="10x_technos" style="max-width: 60%; display: block; margin: auto" >
+<img src="./images/spatial_workflow.webp" alt="10x_technos" style="max-width: 60%; display: block; margin: auto" >
 
 <Transform :scale="0.3">
 Heumos et al, nature review genetics
@@ -256,7 +256,7 @@ transition: fade-out
 
 * Difficulty of cell segmentation
 
-<img src="/images/multimodal_seg_stains.jpg" alt="10x_technos" style="max-width: 60%; display: block; margin: auto" >
+<img src="./images/multimodal_seg_stains.jpg" alt="10x_technos" style="max-width: 60%; display: block; margin: auto" >
 
 ---
 class: 'grid text-center align-self-center 
@@ -283,7 +283,7 @@ layout: center
 
 ---
 layout: text-image
-media: /images/xenium_ov.png
+media: ./images/xenium_ov.png
 ---
 
 # Public dataset of paired samples of human ovary cancer
@@ -325,13 +325,13 @@ sc.tl.umap(adata, n_components=3)
 ```
 ::right::
 
-![](/images/snRNAseq_umap_leiden.png){v-click}
+![](./images/snRNAseq_umap_leiden.png){v-click}
 
 ---
 
 # snRNAseq 
 
-<img src="/images/snRNAseq_umap_annot.png" alt="10x_technos" style="max-width: 100%; display: block; margin: auto" >
+<img src="./images/snRNAseq_umap_annot.png" alt="10x_technos" style="max-width: 100%; display: block; margin: auto" >
 
 ---
 layout: two-cols
@@ -366,13 +366,13 @@ sc.tl.umap(adata, n_components=3)
 </div>
 ::right::
 
-![](/images/xenium_umap_leiden.png){v-click}
+![](./images/xenium_umap_leiden.png){v-click}
 
 ---
 
 # xenium 
 
-<img src="/images/xenium_umap.annot.png" alt="10x_technos" style="max-width: 100%; display: block; margin: auto" >
+<img src="./images/xenium_umap.annot.png" alt="10x_technos" style="max-width: 100%; display: block; margin: auto" >
 
 ---
 layout: center
@@ -400,18 +400,18 @@ layout: two-cols
 ::right::
 
 <br><br><br>
-<img src="/images/nbgenes_percelltype.png" alt="10x_technos" style="max-width: 110%; display: block; margin: auto" >
+<img src="./images/nbgenes_percelltype.png" alt="10x_technos" style="max-width: 110%; display: block; margin: auto" >
 
 ---
 
 
 # Xenium figures highly correlated to sample
 
-<img src="/images/xenium_ov_nbcells_slide.png" alt="10x_technos" style="max-width: 80%; display: block; margin: auto" >
+<img src="./images/xenium_ov_nbcells_slide.png" alt="10x_technos" style="max-width: 80%; display: block; margin: auto" >
 
 ---
 layout: text-image
-media: /images/score_macro_proj_xenium.png
+media: ./images/score_macro_proj_xenium.png
 ---
 
 # Marker genes comparison
@@ -425,7 +425,7 @@ media: /images/score_macro_proj_xenium.png
 
 ---
 layout: text-image
-media: /images/score_macro_proj_snrna.png
+media: ./images/score_macro_proj_snrna.png
 ---
 
 # Marker genes comparison
@@ -449,7 +449,7 @@ layout: center
 * Compare collectri database (consensus of several tools and db) with 5K gene list
 
 <br><br>
-<img src="/images/venn_tf_both.png" alt="10x_technos" style="max-width: 80%; display: block; margin: auto" >
+<img src="./images/venn_tf_both.png" alt="10x_technos" style="max-width: 80%; display: block; margin: auto" >
 
 ---
 
@@ -458,7 +458,7 @@ layout: center
 * Compare LIANA database with 5K gene list
 
 <br><br>
-<img src="/images/venn_lr_both.png" alt="10x_technos" style="max-width: 80%; display: block; margin: auto" >
+<img src="./images/venn_lr_both.png" alt="10x_technos" style="max-width: 80%; display: block; margin: auto" >
 
 ---
 class: 'grid text-center align-self-center 
