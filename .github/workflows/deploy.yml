@@ -4,14 +4,14 @@ on:
   workflow_dispatch: {}
   push:
     branches:
-      - main
+      - main  # Vous pouvez garder main comme branche de déclenchement
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: read
+      contents: write
       pages: write
       id-token: write
 
@@ -43,12 +43,9 @@ jobs:
       - name: List files in dist
         run: ls -la dist
 
-      - uses: actions/configure-pages@v4
-
-      - uses: actions/upload-pages-artifact@v3
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          path: dist
-
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
