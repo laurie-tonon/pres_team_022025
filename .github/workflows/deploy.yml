@@ -46,6 +46,6 @@ jobs:
         with:
           path: dist
 
-    - name: Deploy
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
