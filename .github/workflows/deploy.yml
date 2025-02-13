@@ -30,15 +30,18 @@ jobs:
         run: npm install
 
       - name: Install slidev
-        run:  |
-             npm i -g @slidev/cli
-             npm i -g @iconify/json
-             npm i -g @iconify-json/logos
-             npm i -g vite-svg-loader
-             npm i -g canvas-confetti
+        run: |
+          npm i -g @slidev/cli
+          npm i -g @iconify/json
+          npm i -g @iconify-json/logos
+          npm i -g vite-svg-loader
+          npm i -g canvas-confetti
 
       - name: Build
         run: slidev build --base /pres_team_022025/
+
+      - name: List files in dist
+        run: ls -la dist
 
       - uses: actions/configure-pages@v4
 
@@ -49,4 +52,3 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
-        publish_branch: gh-pages 
