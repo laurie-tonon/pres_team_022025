@@ -40,8 +40,11 @@ jobs:
       - name: Build
         run: slidev build --base /pres_team_022025/
 
-      - name: List files in dist
-        run: ls -la dist
+      - uses: actions/configure-pages@v4
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
