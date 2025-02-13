@@ -119,7 +119,7 @@ class: 'grid text-center align-self-center
 
 ---
 layout: text-image
-media: ./images/10x_technos.png
+media: https://laurie-tonon.github.io/pres_team_022025/images/10x_technos.png
 ---
 
 # 3 main technologies
@@ -179,7 +179,7 @@ Heumos et al, nature review genetics
 
 ---
 layout: text-image
-media: ./images/preproc.png
+media: https://laurie-tonon.github.io/pres_team_022025/images/preproc.png
 reverse: true
 class: custom-slide
 ---
@@ -200,7 +200,7 @@ class: custom-slide
 
 ---
 layout: text-image
-media: ./images/cell_struct.png
+media: https://laurie-tonon.github.io/pres_team_022025/images/cell_struct.png
 reverse: true
 
 ---
@@ -215,7 +215,7 @@ reverse: true
 
 ---
 layout: text-image
-media: ./images/cell_mecanisms.png
+media: https://laurie-tonon.github.io/pres_team_022025/images/cell_mecanisms.png
 reverse: true
 transition: fade-out
 ---
@@ -283,7 +283,7 @@ layout: center
 
 ---
 layout: text-image
-media: ./images/xenium_ov.png
+media: https://laurie-tonon.github.io/pres_team_022025/images/xenium_ov.png
 ---
 
 # Public dataset of paired samples of human ovary cancer
@@ -411,7 +411,7 @@ layout: two-cols
 
 ---
 layout: text-image
-media: ./images/score_macro_proj_xenium.png
+media: https://laurie-tonon.github.io/pres_team_022025/images/score_macro_proj_xenium.png
 ---
 
 # Marker genes comparison
@@ -425,7 +425,7 @@ media: ./images/score_macro_proj_xenium.png
 
 ---
 layout: text-image
-media: ./images/score_macro_proj_snrna.png
+media: https://laurie-tonon.github.io/pres_team_022025/images/score_macro_proj_snrna.png
 ---
 
 # Marker genes comparison
