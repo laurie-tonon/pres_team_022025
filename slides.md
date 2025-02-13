@@ -217,7 +217,7 @@ reverse: true
 layout: text-image
 media: ./images/cell_mecanisms.png
 reverse: true
-
+transition: fade-out
 ---
 
 
@@ -392,8 +392,8 @@ layout: two-cols
 |                         | snRNAseq | Xenium 5K | scRNAseq 5K |
 |-------------------------|----------|-----------|-------------|
 |Number of detected cells | 15,566   | 404,335   | 16,566      |
-|Number of detected cells | 1075     | 196       | 318         |
-|Number of detected cells | 822      | 151       | 245         |
+|Median transcripts/cells | 1075     | 196       | 318         |
+|Median genes/ cells      | 822      | 151       | 245         |
 
 </Transform>
 
