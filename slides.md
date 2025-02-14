@@ -80,7 +80,7 @@ transition: fade-out
 2. Single cell analysis workflow
     - How do we analyse it
 3. Focus on spatial transcriptomics analyses
-    - Whate are the analyses specific to spatial data
+    - What are the analyses specific to spatial data
 4. Xenium 5K and scRNAseq comparison
     - Can we replace the latter by the former?
 
